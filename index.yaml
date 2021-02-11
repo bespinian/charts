@@ -1,0 +1,18 @@
+apiVersion: v1
+entries:
+  helm-demo:
+  - apiVersion: v2
+    created: "2021-02-11T23:48:44.731432+01:00"
+    dependencies:
+    - condition: db.local
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 10.3.0
+    description: Awesome app as a Helm chart for the purpose of demoing Helm
+    digest: a5be0805663dac97bd0c710916955685ba3a3c04185ed79781cea76b7a90b0c9
+    name: helm-demo
+    type: application
+    urls:
+    - helm-demo-0.1.0.tgz
+    version: 0.1.0
+generated: "2021-02-11T23:48:44.722249+01:00"
